@@ -1,0 +1,76 @@
+body{
+    font-family:  Arial, sans-serif;
+}
+
+.row-1{
+    width: 1200px;
+    margin: 0px auto;
+    height: 200px;
+    background-color: rgb(151, 3, 209);
+    border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  font-size: 60px;
+  padding: 60px;
+  padding-left: 350px;
+ box-sizing: border-box;
+ 
+}
+.row2{
+    width: 1200px;
+    margin: 0px auto;
+    height: 130px;
+    border-radius: 5px;
+    border: 1px solid rgb(15, 91, 134);
+    margin-top: 20px;
+}
+.heading{
+    width: 1200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(15, 91, 134);
+    height: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+.row3{
+    width: 300px;
+    margin-left:160px;
+    height: 130px;
+    border-radius: 5px;
+    border: 1px solid rgb(15, 91, 134);
+    margin-top: 15px;
+    float: left;
+}
+.heading1{
+    width: 301px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(15, 91, 134);
+    height: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+.new{
+    margin-left:30px; 
+}
+.width{
+    width: 535px;
+}
+.last{
+    margin-left: 160px;
+    float: left;
+    width: 635px;
+    }
+    .lastw{
+        width: 635px;
+    }
+
+    .blue{
+        margin-left:100px;
+    }
+    .green ,.red, .yellow{
+        margin-left: 25px;
+    }

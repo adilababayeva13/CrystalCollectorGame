@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal Collector</title>
+  
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/ICON.png" type="image/x-icon">
+</head>
+<body>
+   <div class="row-1">Crystal Collector</div>
+
+   <div class="row2">
+     <div class="heading">Instructions</div>
+     <p style="font-size: 13px;margin: 15px; color: rgb(73, 72, 72);">You will be given a random number at the start of the game. There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game will change the values of each crystal</p>
+   </div>  
+   <div class="row3">
+    <div class="heading1">Target Score</div>
+    <p style="font-size: 30px;margin-top: 30px; margin-left:120px; color: rgb(0, 0, 0);" id="targetScore"></p>
+  </div>       
+</div>  
+<div class="row3 new">
+ <div class="heading1">Your Score</div>
+ <p style="font-size: 30px;margin-top: 30px; margin-left:140px; color: rgb(0, 0, 0);" id="mySCORE">0</p>
+</div>
+<div class="row3 new width">
+  <div class="heading1 width">Crystal Selection</div>
+ <img src="./images/blue.png" alt="" class="blue">
+ <img src="./images/green.png" alt="" class="green">
+ <img src="./images/red.png" alt="" class="red">
+ <img src="./images/yellow.png" alt="" class="yellow">
+
+ </div> 
+ <div  class="row3 new width last">
+  <div class="heading1 width lastw">Win Count</div>
+  <p style="font-size: 30px;margin: 30px; margin-left: 310px; color: rgb(0, 0, 0);" id="win">0</p>
+ </div> 
+ <div  class="row3 new width ">
+  <div class="heading1 width">Lose Count</div>
+  <p style="font-size: 30px;margin: 30px; margin-left: 260px; color: rgb(0, 0, 0);" id="lose">0</p>
+ </div>       
+ 
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ <script src="script.js" ></script>
+</body>
+</html>
